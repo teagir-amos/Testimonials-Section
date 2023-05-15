@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    font-family: Times New Roman;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(206, 209, 209);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    height: fit-content;
+    min-height: 100vh;
+}
+.container .box{
+    background: blueviolet;
+    display: flex;
+    border-radius: 20px;
+    grid-column: span 2;
+}
+.container .daniel{
+    display: flex;
+    flex-direction: column;
+}
+.container .photo{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+.container .daniel img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.container .details{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.container .description{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.container .box2{
+    display: flex;
+    background: rgb(3, 3, 75);
+    border-radius: 20px;
+    min-height: 5vh;
+}
+.container .jonathan{
+    display: flex;
+    flex-direction: column;
+}
+.container .photo{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+.container .jonathan img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.container .details2{
+    display: flex;
+    color:#fff;
+    flex-direction: column;
+}
+.container .description2{
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    flex-direction: column ;
+}
+.container .box3{
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    min-height: 5vh;
+}
+.container .jeanette{
+    display: flex;
+    flex-direction: column;
+}
+.container .photo{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+.container .jeanette img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.container .details3{
+    display: flex;
+    flex-direction: column;
+}
+.container .description3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.container .box4{
+    display: flex;
+    background:#000;
+    border-radius: 20px;
+    min-height: 5vh;
+    grid-column: span 2;
+}
+.container .patrick{
+    display: flex;
+    flex-direction: column;
+}
+.container .photo{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+.container .patrick img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.container .details4{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.container .description4{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px;
+}
+.container .box5{
+    display: flex;
+    background: wheat;
+    border-radius: 20px;
+    min-height: 5vh;
+    grid-column-start:4 ;
+    grid-row:1; 
+    grid-row-end: 3;
+}
+.container .kira{
+    display: flex;
+    flex-direction: column;
+}
+.container .photo{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+.container .kira img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.container .details4{
+    display: flex;
+    flex-direction: column;
+}
+.container .description5{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
